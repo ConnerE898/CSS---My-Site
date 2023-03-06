@@ -1,25 +1,51 @@
 /*--------------------------Tag Selectors--------------------------*/
 body {
-    margin: 0px;    
+    margin: 0px;
+    text-align: center;    
 }
 h1 {
-    margin-top: 0px;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 /*--------------------------Class Selectors--------------------------*/
 
 .top-container {
-    background-color: #FFF1DC;
+    background-color: #3A98B9;
+    padding-top: 100px;
+    position: relative;
 }
  
 .middle-container{
-    background-color: #3A98B9 ;
-    height: 200px;
-    width: 200px;
+    
+}
+.bottom-container{
+   
 }
 
-.bottom-container{
-    background-color: #E8D5C4 ;
-    height: 200px;
-    width: 200px;
+/*--------------------------ID Selectors--------------------------*/
+#mountain{
+    
 }
+#cloudLow{
+    position: absolute;
+    bottom: 300px;
+    left: 450px;
+}
+
+#cloudHigh{
+    position: absolute;
+    right: 475px;
+    top: 50px;
+    
+    
+}
+
