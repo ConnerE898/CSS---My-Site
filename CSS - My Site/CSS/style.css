@@ -1,52 +1,90 @@
 /*--------------------------Tag Selectors--------------------------*/
+a {
+    color: #183A1D;
+}
+
 body {
     margin: 0px;
     text-align: center; 
-    font-family: 'Cormorant Garamond', serif;   
+    font-family: 'Cormorant Garamond', serif; 
+    color: #183A1D;
+    font-weight: bold;
+
 }
 h1 {
     margin: 50px auto 0 auto;
     font-family:'Sacramento', cursive;
     font-size: 5.625rem;
     line-height: 2;
-    color: #205E61;
+    color: #F0A04B;
 }
 
 h2 {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    color: #205E61;
+    color: #F0A04B;
 }
 
 h3 {
     font-family: 'Libre Franklin', sans-serif;
-    color: #3F979B;
+    color: #183A1D;
 }
 
-a {
-    color: #3F979B;
+p{
+    font-size: 1.17rem;
 }
+
 
 /*--------------------------Class Selectors--------------------------*/
 
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto 0100px auto;
+}
+
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .top-container {
-    background-color: #8BF5FA;
+    background-color: #FEFBE9;
     padding-top: 100px;
     position: relative;
 }
- 
-.middle-container{
-    
+.bottom-container {
+    background-color: #FEFBE9;
 }
-.bottom-container{
-   
+.rgb-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
 }
 
-/*--------------------------ID Selectors--------------------------*/
-#mountain{
-    
+.writing-img{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
 }
+
+.coding-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+/*--------------------------ID Selectors--------------------------*/
+
 #cloudLow{
     position: absolute;
     bottom: 300px;
@@ -57,6 +95,5 @@ a {
     position: absolute;
     right: 475px;
     top: 50px;
-
 }
 
