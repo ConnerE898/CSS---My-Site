@@ -1,6 +1,7 @@
 /*--------------------------Tag Selectors--------------------------*/
 a {
     color: #183A1D;
+    text-decoration: none;
 }
 
 body {
@@ -30,9 +31,18 @@ h3 {
     font-family: 'Libre Franklin', sans-serif;
     color: #183A1D;
 }
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #bbc5c5;
+    border-width: 7px;
+    width: 5%;
+    margin: 100px auto;
+}
 
 p{
     font-size: 1.17rem;
+    line-height: 2;
 }
 
 
@@ -41,19 +51,24 @@ p{
 
 .contact-me{
     width: 50%;
-    margin: 100px auto 0100px auto;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.intro{
+   width: 30%;
+   margin: 0 auto;
 }
 
 .profile{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 0px auto ;
 }
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .top-container {
@@ -61,8 +76,13 @@ p{
     padding-top: 100px;
     position: relative;
 }
+.middle-container {
+    margin: 100px 0;
+
+}
 .bottom-container {
     background-color: #FEFBE9;
+    padding: 50px;
 }
 .rgb-img{
     width: 20%;
@@ -82,7 +102,46 @@ p{
     margin-right: 30px;
 }
 
+.footer-link{
+    font-size: 1.2rem ;
+    padding: 20px;
+    margin-bottom: 40px;
+}
 
+.ugly{
+    margin: 50px 0 50px 0;
+}
+
+.less-ugly{
+    margin-bottom: 100px;
+}
+
+.btn {
+    background: #F0A04B;
+    background-image: -webkit-linear-gradient(top, #F0A04B, #d18941);
+    background-image: -moz-linear-gradient(top, #F0A04B, #d18941);
+    background-image: -ms-linear-gradient(top, #F0A04B, #d18941);
+    background-image: -o-linear-gradient(top, #F0A04B, #d18941);
+    background-image: linear-gradient(to bottom, #F0A04B, #d18941);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a5db93;
+    background-image: -webkit-linear-gradient(top, #a5db93, #183A1D);
+    background-image: -moz-linear-gradient(top, #a5db93, #183A1D);
+    background-image: -ms-linear-gradient(top, #a5db93, #183A1D);
+    background-image: -o-linear-gradient(top, #a5db93, #183A1D);
+    background-image: linear-gradient(to bottom, #a5db93, #183A1D);
+    text-decoration: none;
+  }
 /*--------------------------ID Selectors--------------------------*/
 
 #cloudLow{
